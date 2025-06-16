@@ -49,8 +49,7 @@ This is a static UI clone for learning and portfolio demonstration purposes only
 
 ---
 
-## 🌐 Live Demo 
-```
-https://Pavithra-Christy.github.io/whatsapp-ui-clone/
-```
+## 🌐 Live Demo
+
+[Click here to view the live WhatsApp UI Clone](https://Pavithra-Christy.github.io/whatsapp-ui-clone/)
 
