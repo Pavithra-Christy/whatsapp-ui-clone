@@ -1,0 +1,258 @@
+*,body,html{
+    margin: 0px;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    
+}
+
+.top-bar h2 {
+    margin: 0;
+}
+.top-bar-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.fa-whatsapp{
+    color: green;
+    padding: 2px;
+}
+.parent {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 50px); 
+}
+.left{
+    border: 1px solid rgb(225, 220, 220);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width:30%;
+    height: calc(100vh - 50px); 
+    padding : 4px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+.left_1{
+    display: flex;
+    justify-content: space-between;
+    gap:0px;
+    align-items: center;
+}
+.left_2 {
+    display: flex;
+    width: 100%; 
+    margin-left:2px;
+    margin-right: 2px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.left_2_btn{
+    border: 1px solid rgb(235, 228, 228);
+    border-right: 0px;
+    background-color: white;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    padding: 5px; 
+    margin: 0;
+}
+.left_2_text{
+    flex-grow: 1;
+    border: 1px solid rgb(233, 228, 228);
+    border-left: 0px;
+    background-color: white;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 5px; 
+    margin: 0;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.ul_left{
+    padding: 0px;
+    align-items: center;
+}
+.left_3{
+    overflow-y: scroll;
+    height:90vh;
+}
+li{
+    list-style-type: none;
+}
+.li_cont{
+    display: flex;
+    align-items: center;
+    
+}
+.left_3 li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.chat-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.pro-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}
+.li_cont_div1{
+    padding: 8px;
+}
+.li_cont_div2{
+    padding: 8px;
+}
+.li_cont_div2_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h4{
+    margin: 0px;
+}
+
+.right{
+    border: 1px solid rgb(230, 226, 226);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width:70%;
+    height: calc(100vh - 50px); 
+    padding : 4px;
+    align-items: center;
+}
+.right_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(213, 208, 208);
+    height: 10vh;
+}
+.right_1_div1{
+    display: flex;
+    align-items: center;
+    
+}
+.right_1_div2{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.right_1_div2_1{
+    margin: 2px;
+}
+.fa-video,.fa-phone{
+    border: 1px solid rgb(211, 204, 204);
+    padding: 2px;
+    
+}
+.right_1_div2_2{
+    margin-left: 8px;
+    padding: 8px;
+}
+
+.right_2 {
+    height: 82vh;
+    background-image: url(images/wallpaper.jpg);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    overflow-y: scroll;
+    
+}
+.right_h{
+    margin: 6px;
+}
+.message-box {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 12px; 
+    padding: 8px;
+    display: inline-block; 
+    max-width: 80%; 
+    word-wrap: break-word; 
+} 
+.right_3{
+    margin-top: 2px;
+    height: 5vh;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 67%;
+    background-color: white;
+}
+.right_3_text{
+    flex-grow:1; 
+    border:0;
+}
+.fa-regular,.fa-paperclip,.fa-microphone{
+    padding: 10px;
+}
+.fa-microphone{
+    align-items: flex-end;
+}
+
+.sidebar { 
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.scrollable {
+    overflow-y: scroll;
+    height: 90vh;
+}
+.scrollable::-webkit-scrollbar {
+    width: 4px; 
+    background: transparent; 
+}
+.scrollable::-webkit-scrollbar-thumb {
+    background: rgba(82, 82, 82, 0.5); 
+    border-radius: 10px;
+    min-height: 4px; 
+    max-height: 4px;
+}
+.scrollable::-webkit-scrollbar-button {
+    display: none; 
+}
+.scrollable:hover::-webkit-scrollbar {
+    width: 6px; 
+    background: transparent; 
+}
+.scrollable:hover::-webkit-scrollbar-thumb {
+    background: rgba(82, 82, 82, 0.8); 
+}
+
