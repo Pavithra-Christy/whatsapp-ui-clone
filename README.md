@@ -51,6 +51,6 @@ This is a static UI clone for learning and portfolio demonstration purposes only
 
 ## 🌐 Live Demo 
 ```
-https://yourusername.github.io/whatsapp-ui-clone/
+https://Pavithra-Christy.github.io/whatsapp-ui-clone/
 ```
 
